@@ -1,29 +1,3 @@
-/* Table of Content
-==================================================
-1.    Typography
-2.    Global Styles
-3.    Top Bar
-4.    Header area
-5.    Slider
-6.    Call to action
-7.    Features
-8.    Facts
-9.    Services
-10.   Project area
-11.   Content area
-12.   Testimonial
-13.   Subscribe area
-14.   News section
-15.   Footer
-16.   Sub Pages
-17.   Contact Us
-18.   News Listing
-19.   News Single
-20.   Sidebar
-21.   Error page
-
-*/
-
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i,800);
 /* Typography
 ================================================== */
@@ -109,7 +83,7 @@ body {
 
 .preload {
     position: fixed;
-    background: #fff url(../images/Untitled-1.svg) center center no-repeat;
+    background: #fff url(../images/favicon-pattern162x162.gif) center center no-repeat;
     left: 0px;
     top: 0px;
     width: 100%;
@@ -265,30 +239,6 @@ img.pull-right {
     height: 100%;
     top: 0;
     left: 0;
-}
-
-/* Dropcap */
-
-.dropcap {
-    font-size: 48px;
-    line-height: 60px;
-    padding: 0 7px;
-    display: inline-block;
-    float: left;
-    font-weight: 700;
-    margin: 5px 15px 5px 0;
-    position: relative;
-    text-transform: uppercase;
-}
-
-.dropcap.primary {
-    background: #3a8dde;
-    color: #fff;
-}
-
-.dropcap.secondary {
-    background: #3a5371;
-    color: #fff;
 }
 
 /* Title */

@@ -1,19 +1,15 @@
-/*URI: https://themeforest.net/user/tripples
-
-	1. Fixed header
-	2. Main slideshow
-	3. Site search
-	4. Owl Carousel
-	5. Video popup
-	6. Counter
-	7. Contact form
-	8. Back to top
-  
-*/
 
 
 jQuery(function($) {
     "use strict";
+
+    /* ----------------------------------------------------------- */
+    /*  Preload
+    /* ----------------------------------------------------------- */
+
+    $(window).on("load",function(){
+        $(".preload").fadeOut("slow");
+    });
 
     /* ----------------------------------------------------------- */
     /*  Fixed header
